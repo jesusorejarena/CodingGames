@@ -1,0 +1,51 @@
+/*Scroll*/
+
+body::-webkit-scrollbar{background:#D2D2D2; width: 12px; height: 12px}
+body::-webkit-scrollbar-thumb{background: #888888 !important; border-radius: 1px;}
+body {overflow-x:hidden;}
+
+/*Scroll*/
+
+.header, .navbar {background: linear-gradient(#404040, #0005) !important;}
+
+.dropdown-caja{color: #D6D5D5 !important; border-radius: 8px;}
+.dropdown-caja:hover{background: #465059 !important;color: #ffffff !important; border-radius: 8px;}
+
+body {font-family: sans-serif;}
+
+.fondo {background: #D2D2D2;}
+
+.screenup {display: none; padding: 3px 20px; background: #888888; font-size: 32px ;color: #fff; cursor: pointer; position: fixed; bottom: 10px; 
+right: 10px; z-index: 2; border-radius: 40px}
+
+.text-color-white{color: #E4E4E4;}
+
+.text-a-button{color: #007bff; text-decoration: none;}
+.text-a-button:hover{color: #FFFFFF; text-decoration: none;}
+
+.text-color-orange{color: #F86900;}
+.text-color-orange:hover{color: #FF8932; transition: 0.5s;}
+
+.text-color-blue{color: #348EFF;}
+.text-color-blue:hover{color: #4296FF; transition: 0.5s;}
+
+.decoration {text-decoration: none; color: #424242;}
+.decoration:hover {text-decoration: none; color: #9C9C9C;}
+
+.btn-outline-login {color: #C4C4C4;border-color: #408BF0; border-radius: 20px;}
+.btn-outline-login:hover {color: #fff;background-color: #408BF0;border-color: #408BF0;}
+.btn-outline-login:focus, .btn-outline-login.focus {box-shadow: 0 0 0 0.2rem rgba(64, 149, 240, 0.6);}
+.btn-outline-login.disabled, .btn-outline-login:disabled {color: #408BF0;background-color: transparent;}
+.btn-outline-login:not(:disabled):not(.disabled):active, .btn-outline-login:not(:disabled):not(.disabled).active,
+.show > .btn-outline-login.dropdown-toggle {color: #fff;background-color: #408BF0;border-color: #408BF0;}
+.btn-outline-login:not(:disabled):not(.disabled):active:focus, .btn-outline-login:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-login.dropdown-toggle:focus{box-shadow: 0 0 0 0.2rem rgba(64, 149, 240, 0.6);}
+
+.inputmod {border-radius: 7px; color: #FFFFFF}
+.inputmod:hover{border-color: #3686FD;}
+.inputmod::placeholder {color: #D1D1D1;}
+
+.text-area{max-height: 100px; min-height: 100px;}
+
+.imagen {border-radius: 10px}
+

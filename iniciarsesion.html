@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<title>Iniciar Sesión - CodingGames</title>
+		<link rel="icon" href="Imagenes/icon.png">
+		<link rel="stylesheet" href="Css/bootstrap-4.3.1/css/bootstrap.css">
+		<link rel="stylesheet" href="Css/ionicons/css/ionicons.min.css">
+		<link rel="stylesheet" href="Css/animate/animate.min.css">
+		<link rel="stylesheet" href="Css/wow/animate.css">
+		<link rel="stylesheet" href="Css/estilos.css">
+
+	</head>
+
+	<body class="m-0 p-0 fondo">
+
+		<!-- Comienza pantalla de carga del inicio -->
+
+		<span class="screenup" id="screenup"><i class="icon ion-md-arrow-dropup-circle"></i></span>
+
+		<!-- Termina pantalla de carga del inicio -->
+		
+		<!-- Comienza el Nav -->
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 m-0 p-0">
+					<header class="header">
+						<nav class="navbar navbar-expand-md bg-dark navbar-dark form-control-static fixed-top">
+
+							<a class="navbar-brand navmenu" href="index.html">CodingGames</a>
+
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Inicio</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link navmenu dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Temas</a>
+										<div class="dropdown-menu bg-dark p-3 border border-0 caja text-center">
+											<a class="nav-link dropdown-caja" href="gameengine.html">Motores de videojuegos <br><i class="icon ion-logo-game-controller-b" style="font-size: 32px;"></i></a>
+											<a class="nav-link dropdown-caja" href="sprites.html">Editores gráficos <br><i class="icon ion-md-images" style="font-size: 32px;"></i></a>
+											<a class="nav-link dropdown-caja" href="audiodigital.html">Editores de audio digital <br><i class="icon ion-md-headset" style="font-size: 32px;"></i></a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link navmenu active" href="iniciarsesion.html">Iniciar Sesión</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link navmenu" href="registrarse.html">Registrarse</a>
+									</li> 
+								</ul>
+							</div> 
+						</nav>
+					</header>
+				</div>
+			</div>
+		</div>
+
+		<!-- Termina el Nav -->
+
+		<!-- Comienza el Contenido -->
+
+		<!-- Comienza el formulario para iniciar sesion -->
+
+		<div class="container pt-3 mt-5 px-5 animated wow zoomIn">
+			<form action="" method="POST">
+				<div class="bg-dark p-5 m-5 rounded shadow-lg p-4 mb-4">
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-12 col-md-6">
+							<h1 class="h2 text-light text-center mb-4">Iniciar Sesión</h1>
+							<div class="row">
+								<div class="col-12">									
+									<div class="form-group">
+										<label for="correo" class="text-color-white text-left"><p class="h5">Correo: </p></label>
+										<input class="text-white form-control bg-transparent inputmod border border-top-0 border-left-0 border-right-0" type="email" id="correo" name="correo" minlength="3" maxlength="40" required="" placeholder="Correo:">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<div class="form-group">
+										<label for="password" class="text-color-white text-left"><p class="h5">Contraseña: </p></label>
+										<input class="text-white form-control bg-transparent inputmod border border-top-0 border-left-0 border-right-0" type="password" id="password" name="password" minlength="3" maxlength="20" required="" placeholder="Contraseña:">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12	">
+									<div class="form-group d-flex justify-content-between">
+										<a href="registrarse.html" class="text-color-blue text-left" style="text-decoration: none;">Registrarse</a>
+										<a href="#" class="text-color-orange text-left" style="text-decoration: none;">¿Olvidaste la contraseña?</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 text-center">
+									<button class="btn btn-outline-login btn-lg btn-block color-boton" type="submit" name="submit">Iniciar</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<!-- Termina el formulario para iniciar sesion -->
+
+		<!-- Termina el Contenido -->
+
+		<!-- Comienza el Footer -->
+
+		<footer>
+			<div class="container-fluid mt-4 bg-dark text-white">
+				<div class="row">
+					<div class="col-12 my-5">
+						<div class="d-flex justify-content-between">
+							<a class="btn btn-dark"><p class="h5">CodingGames &copy; 2019</p></a>
+							<button class="btn btn-dark" data-toggle="modal" data-target="#ventana2"><a class="h5">Diseñador Jesús Orejarena</a></button>
+							<div class="modal fade text-center text-dark" id="ventana2" tabindex="-1" role="dialog" aria-labelledby="ventana2" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">Desarrollador: </h5>
+											<button class="close" data-dismiss="modal" aria-label="cerrar">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<h2>Jesús Orejarena</h2>
+											<h4>Actual estudiante de Informatica en el IUT</h4>
+											<img src="Imagenes/Foto 1.jpg" alt="Foto" width="30%" class="img-fluid rounded mb-2">
+											<h5>18 Años</h5>
+											<p class="h6">Lenguajes: C, Java, MySQL, Html5, Css3, Php y Bootstrap 4</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="https://seventeencorporation.000webhostapp.com" target="_blank" class="btn btn-dark"><p class="h5">SevenTeen Corporation</p></a>
+						</div>
+						<div class="d-flex justify-content-start">
+							<a href="https://www.facebook.com" target="_blank" class="btn btn-dark"><i class="icon ion-logo-facebook" style="font-size: 32px"></i></a>
+							<a href="https://www.instagram.com" target="_blank" class="btn btn-dark"><i class="icon ion-logo-instagram" style="font-size: 32px"></i></a>
+							<a href="https://www.twitter.com" target="_blank" class="btn btn-dark"><i class="icon ion-logo-twitter" style="font-size: 32px"></i></a>
+							<a href="https://www.youtube.com" target="_blank" class="btn btn-dark"><i class="icon ion-logo-youtube" style="font-size: 32px"></i></a>
+							<button class="btn btn-dark" data-toggle="modal" data-target="#ventana3"><a class="h5"><i class="icon ion-logo-bitcoin" style="font-size: 32px;"></i></a></button>
+							<div class="modal fade text-center text-dark" id="ventana3" tabindex="-1" role="dialog" aria-labelledby="ventana3" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">Doname: </h5>
+											<button class="close" data-dismiss="modal" aria-label="cerrar">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<h2>Bitcoin</h2>
+											<img src="Imagenes/Mi wallet Bitcoin QR.jpg" alt="Foto" width="30%" class="img-fluid rounded mb-2">
+											<h4 class="text-left">Wallet: 1MiYd231BtjZSGLwi8RoM2w4JWykq9Kj9</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+		<!-- Termina el Footer -->
+
+		
+		<script src="Css//bootstrap-4.3.1/js/jquery-3.4.1.min.js"></script>
+		<script src="Css//bootstrap-4.3.1/js/popper.min.js"></script>
+		<script src="Css//bootstrap-4.3.1/js/bootstrap.js"></script>
+		<script src="JavaScript/screenup.js"></script>
+		<script src="Css/wow/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		
+	</body>
+	
+</html>
